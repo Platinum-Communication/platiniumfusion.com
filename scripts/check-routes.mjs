@@ -13,6 +13,7 @@ const routes = [
   "legal/privacy/page.js",
   "legal/cookies/page.js",
   "legal/terms/page.js",
+  "api/contact/route.js",
 ];
 
 const missing = routes.filter((route) => !existsSync(resolve(appDir, route)));

@@ -44,6 +44,6 @@ export const faqItems = [
   },
   {
     q: "What happens when I submit the form?",
-    a: "If a public email is listed, your mail client opens with the brief. If it is not listed yet, the form copies the brief to your clipboard and does not claim a send. Do not include secrets or production datasets.",
+    a: "The form emails the brief to Platinum. We reply to the work email you provided. Do not include secrets or production datasets.",
   },
 ] as const;
