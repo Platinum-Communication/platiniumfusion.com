@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "platinum-website",
+  "name": "platinumfusion-com",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-03",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
@@ -14,7 +14,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "platinum-website"
+      "service": "platinumfusion-com"
     }
   ]
 }
