@@ -25,7 +25,6 @@ export const nav = [
   { label: "Services", href: "/services" },
   { label: "Workloads", href: "/workloads" },
   { label: "Company", href: "/about" },
-  { label: "Contact", href: "/contact" },
 ] as const;
 
 export type NavMenuItem = {
